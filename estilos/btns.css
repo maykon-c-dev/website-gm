@@ -1,0 +1,11 @@
+button{    
+    margin-top: 5%;
+	background-image: linear-gradient(to right, #b0b1afde,#4c4f52b4,#b0b1afde);
+	border-radius: 6px;
+	padding: 7px;
+	cursor: pointer; 
+	color: rgb(0, 0, 0); 
+	border: solid 2px #000000 ; 
+	font-size: min(20px,2vw);
+	font-weight: 600;
+}

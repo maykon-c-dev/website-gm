@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf=8">
+	<link href= "reset.css" rel="stylesheet">
+	<link href= "cadastro.css" rel="stylesheet">
+	
+
+<title>Cadastro</title>
+</head>
+
+<body>
+	<nav>
+        <a href="index.html"><button onmouseenter="selecionar(event)" onmouseout="desselecionar(event)" >Voltar</button></a>
+    </nav>
+
+    <div class="banner_topo">	
+        <img src= "imagens/Geisa e Maykon.png" alt="Casal">
+    </div>
+
+	<div class="box">
+		<form action="">  <!-- inicia o formulario -->
+			<fieldset>    <!-- abre a area de formulario -->
+				<legend><b>Faça seu Cadastro!!</b></legend>  <!-- <b> negrito / <legend> titulo que sera usado na area -->
+				<div class="formulario">   <!-- criar uma div para cada label do formulario -->
+					<label for= "nome">Qual o seu nome?</label>  <!-- abre o campo de digitaçao referente ao nome, com a descriçao que foi dada -->
+				
+					<input type="text" name="nome" id="nome" class= "inputUser" required>  <!-- entrada de dados do tipo texto, com id de nome e classe para editar pelo css -->
+					
+				</div>
+				
+				<div class="formulario"> 
+					<label for= "email">Qual o seu email?</label>
+					
+					<input type="email" name="email" id="email" class= "inputUser" > 
+					
+				</div>
+				<div class="formulario">  
+					<label for= "telefone">Qual o seu telefone?</label>					
+					<input type="text" name="telefone" id="telefone" class= "inputUser" required>  				
+				</div>
+				<div class="formulario">
+				<p>Qual o seu Sexo?</p>
+				</div>
+				<div id="inputRadio">
+					<input type="radio" name="sexo" id="sexo" value "feminino">
+					<label for ="feminino">Feminino</label>
+					<input type="radio" name="sexo" id="sexo" value "masculino">
+					<label for ="masculino">Masculino</label>
+					<input type="radio" name="sexo" id="sexo" value "Outro">
+					<label for ="Outro">Outro</label>
+				</div>
+				<div class="formulario"> 
+					<label for= "data_nasc">Qual sua data de nascimento?</label>			
+					<input type="date" name="data_nasc" id="data_nasc" class= "inputUser" required>  
+
+				</div>
+				<div class="formulario">  
+					<label for= "endereco">Qual o seu endereco?</label>
+					<br>
+					<input type="text" name="endereco" id="endereco" class= "inputUser" required> 
+					
+				</div>
+				
+				<button onmouseenter="selecionar(event)" onmouseout="desselecionar(event)" >Enviar</button>
+			
+				
+			</fieldset>
+			
+		</form>
+	</div>
+
+	<footer>
+        <div>
+        <p>Desenvolvido por <i>Maykon Dourado</i></p>
+        </div>
+        <div class="container_links">
+            <div class="linkedin">
+                <p><a href="https://www.linkedin.com/in/maykondourado?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDzuJzeZ%2FQXyE%2BTLLS%2FGJkw%3D%3D"><img src="imagens/linkedin_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+            <div class="github">
+                <p><a href="https://github.com/maykon-c-dev/website_local.git"><img src="imagens/github_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+        </div>
+    </footer>
+
+	<script src="cadastro.js"></script>
+
+</body>
+</html>

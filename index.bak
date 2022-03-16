@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf=8">
+	<title>Seja Bem Vindo!!</title>
+	<link href= "reset.css" rel="stylesheet">
+    <link href= "estilo.css" rel="stylesheet">
+	
+	
+</head>
+<body>
+
+
+<header class="menu_topo">
+	
+	<a href="cadastro.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000 ; font-size: 16px;font-weight: bold;">Cadastre-se</button></a></li>
+	<a href="login.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000 ; font-size: 16px;font-weight: bold;">Login</button></a></li>
+	
+		
+</header>
+
+<div class="banner_topo">
+	<figure>
+		<img src= "imagens/Geisa e Maykon.png" alt= geisa e maykon;>
+	</figure>
+</div>
+
+<div class="titulo">
+	<h1><p>Geisa e Maykon</p></h1>
+	
+</div>
+
+<div class="menu">
+	<ul>
+		<li><a href="cadastro.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000 ; font-size: 16px;font-weight: bold;">Cadastre-se</button></a></li>
+		<li><a href="filmes.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Filmes</button></a></li>
+		<li><a href="fotos.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Fotos</button></a></li>
+		<li><a href="musicas.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Músicas</button></a></li>
+		<li><a href="documentos.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Documentos</button></a></li>
+	</ul>
+</div>
+
+<div class="banner_casal">
+	<img src="imagens/banner_casal.jpg" alt= foto do casal;> 
+	
+</div>
+
+<div class= "sobre_casal">
+
+	<h1><b>Sobre o casal!!</b></h1>
+	<h2>Juntos desde 12/10/2013, somos um casal bem eclético. Gostamos de varios estilos de musicas, praticamente todos os generos de filmes e nossos gosto em lazer geralmente se resume em lanchonetes, pizzarias e lugares mais calmos. </h2>
+
+
+</div>
+	
+	
+</body>
+</html>

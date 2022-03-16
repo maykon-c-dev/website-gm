@@ -1,0 +1,48 @@
+body
+{
+	background-color: #000000;
+    color: #ffffff;
+    margin-top: 1%;
+	
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+fieldset
+{
+    text-align: center;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+fieldset legend
+{
+    background-color: #7fd36a;
+    font: italic bold 20px sans-serif;
+    color: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.formulario
+{
+    font: italic bold 15px sans-serif;
+    padding: 40px;
+    letter-spacing:normal;
+}
+input
+{
+    width: 100%;
+}
+
+a
+{
+    padding:20px;
+}

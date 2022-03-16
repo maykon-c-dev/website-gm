@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf=8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, inicial-scale=1,0>
+
+<link href="css/home.css" rel="stylesheet">
+<title>Cadastro</title>
+
+
+
+</head>
+<body>
+	<div class="box">
+		<form action="">  <!-- inicia o formulario -->
+			<fieldset>    <!-- abre a area de formulario -->
+				<legend><b>Faça seu Cadastro!!</b></legend>  <!-- <b> negrito / <legend> titulo que sera usado na area -->
+				<br>   <!-- uma linha de espaço -->
+				<div class="inputbox">   <!-- criar uma div para cada label do formulario -->
+					<input type="text" name="nome" id="nome" class= "inputUser" required>  <!-- entrada de dados do tipo texto, com id de nome e classe para editar pelo css -->
+					<label for= "nome">Qual o seu nome?</label>  <!-- abre o campo de digitaçao referente ao nome, com a descriçao que foi dada -->
+				</div>
+				<br><br>
+				<div class="inputbox"> 
+					<input type="email" name="email" id="email" class= "inputUser" > 
+					<label for= "email">Qual o seu email?</label>
+				</div>
+				<br><br>
+				<div class="inputbox">  
+					<input type="text" name="telefone" id="telefone" class= "inputUser" required>  
+					<label for= "telefone">Qual o seu telefone?</label>
+				</div>
+				<br><br>
+				<p>Qual o seu Sexo?</p>
+					<input type="radio" name="sexo" id="sexo" value "feminino">
+					<label for ="feminino">Feminino</label>
+					<input type="radio" name="sexo" id="sexo" value "masculino">
+					<label for ="masculino">Masculino</label>
+					<input type="radio" name="sexo" id="sexo" value "Outro">
+					<label for ="Outro">Outro</label>
+				<br><br>
+				<div class="inputbox"> 
+					<label for= "data_nasc"><b>Qual sua data de nascimento?</b></label>				
+					<input type="date" name="data_nasc" id="data_nasc" class= "inputUser" required>  
+
+				</div>
+				<br><br>
+				<div class="inputbox">  
+					<input type="text" name="endereco" id="endereco" class= "inputUser" required> 
+					<label for= "endereco">Qual o seu endereco?</label>
+				</div>
+				<br><br>
+				<input type="submit" name="submit" id="submit">
+				
+			
+				
+			</fieldset>
+			
+		</form>
+	</div>
+
+
+
+
+
+
+</body>
+</html>

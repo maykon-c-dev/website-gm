@@ -1,0 +1,106 @@
+body
+{
+    margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #000000;
+}
+nav{
+	display:flex;
+	background-image: linear-gradient(to right , #000000c2, #555b61b6,#555b61b6,#0000009f);
+}
+.menu{
+	justify-content:right;
+	align-items: flex-end;
+}
+
+.banner_topo{	
+	margin-top: 2%;
+	margin-bottom: 2%;	
+}
+
+.banner_topo img{
+	width: 100%;
+	border: 4px solid #ffffff8e;
+	border-radius : 8px;
+	text-align: center;	
+}
+
+.box{   
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{ 
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid #ffffff77;
+    border-radius: 8px;
+    padding:10%;
+    
+}
+fieldset legend{
+    font: normal bold max(10px, 2.4vw) arial;
+    color: #ffffff;
+    border: 3px solid #ffffff7e;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.formulario{
+    margin-top: 4%;
+    font: italic 15px sans-serif;
+}
+.formulario input{
+    margin:4%;
+    padding: 1%;
+    border-radius: 5px;
+}
+#inputRadio{
+    margin:4%;
+}
+
+button{
+	background-image: linear-gradient(to right, #b0b1afde,#4c4f52c7,#b0b1afde);
+	border-radius: 6px;
+	padding: 7px;
+	cursor: pointer; 
+	color: rgb(0, 0, 0); 
+	border: solid max(2px,0.2vw) #000000 ; 
+	font-size: min(20px,2vw);
+	font-weight: 600;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font: normal max(12px, 1vw) arial;
+	color: #ffffff;
+}
+footer img{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 20px;
+	height: auto;
+}
+.container_links{
+	display: flex;
+}
+.linkedin{	
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5%;
+	padding-left: 20%;
+}
+.github{	
+	align-items: center;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 5%;
+	padding-left: 20%;
+
+}

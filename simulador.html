@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet">
+    <link href="simulador.css" rel="stylesheet">
+    <link href="estilos/btns.css" rel="stylesheet">
+    <link href="estilos/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <title>Simulador de Juros Compostos</title>
+</head>
+<body>
+    <nav class="topo">
+        <div>
+        <p>Simulador de Juros Compostos</p>
+        </div>
+            
+    </nav>
+
+    <div class="banner_topo">	
+        <img src= "imagens/Geisa e Maykon.png" alt="Casal">
+    </div>
+
+    <fieldset class="container">
+        <legend><h1>Simule seu empréstimo aqui</h1></legend>
+        <main>
+            <p>Digite o valor do emprestimo </p>
+            <input type="number" name="txtvalor" id="txtvalor">
+            <br>
+            <p>Digite a taxa de juros ao mês</p>
+            <input type="number" name="txtjuros" id="txtjuros"> 
+            <br>
+            <p>Quantas parcelas? </p> 
+            <input type="number" name="txtvezes" id="txtvezes">
+            
+        </main>
+        
+        <div id="resultado_container">
+            <div class = "resultado" id="resul1"> </div>
+            <div class = "resultado" id="resul2"> </div>
+        </div>
+    
+    
+    <div class="btns">
+        <div>
+        <a href="index.html"><button class="button" onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Voltar</button></a>   
+        </div>
+        <div>
+        <button class="button" onclick= "limpar()" onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Limpar</button>
+        </div>
+        <div>
+        <button class="button" onclick= "simular()" onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Simular</button>
+        </div>
+    </div>
+    </fieldset>
+    
+    <footer>
+        <div>
+        <p>Desenvolvido por <i>Maykon Dourado</i></p>
+        </div>
+        <div class="container_links">
+            <div class="linkedin">
+                <p><a href="https://www.linkedin.com/in/maykondourado?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDzuJzeZ%2FQXyE%2BTLLS%2FGJkw%3D%3D"><img src="imagens/linkedin_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+            <div class="github">
+                <p><a href="https://github.com/maykon-c-dev/website_local.git"><img src="imagens/github_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="simulador.js"></script>
+</body>
+</html>

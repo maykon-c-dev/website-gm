@@ -1,0 +1,34 @@
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font: normal max(15px, 1.8vw) arial;
+	color: #ffffff;
+}
+footer img{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 20px;
+	height: auto;
+}
+.container_links{
+	display: flex;
+}
+.linkedin{	
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5%;
+	padding-left: 20%;
+}
+.github{	
+	align-items: center;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 5%;
+	padding-left: 20%;
+
+}
