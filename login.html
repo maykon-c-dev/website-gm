@@ -10,30 +10,47 @@
 
 
 <body>
-	<div class="box">		
-		<form class="formulario"></form>
-			<fieldset>
+	<nav>
+        <a href="index.html"><button onmouseenter="selecionar(event)" onmouseout="desselecionar(event)" >Voltar</button></a>
+    </nav>
+
+    <div class="banner_topo">	
+        <img src= "imagens/Geisa e Maykon.png" alt="Casal">
+    </div>
+
+	<div class="box">
+		<form>		
+			<fieldset class="formulario">
 				<legend>Faça seu login!!</legend>
-				
-				
-					<div class="email">
-						<label for="seuemail"> Email </label>
-						<br>
-						<input type="email" id="seuemail" name="seuemail" required/>
-					</div>
-					<br>
-					<div class="senha">
-						<label for="senha"> Senha </label>
-						<br>
-						<input type="password" id="senha" name="senha" maxlength="8" required>
-					</div>
-					<br>
-					<br>
-					
-					<a href="home.html"><button:submit style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Login</button></a>
-					<a href="index.html"><button style="background: #7fd36a; border-radius: 6px; padding: 10px; cursor: pointer; color: rgb(0, 0, 0); border: solid 1px #000000; font-size: 16px;font-weight: bold;">Voltar</button></a>
-			</fieldset>		
-		</form>	
+				<div class="email">
+					<label for="seuemail"> Email </label>
+					<input type="email" id="seuemail" name="seuemail" required/>
+				</div>
+				<div class="senha">
+					<label for="senha"> Senha </label>
+					<input type="password" id="senha" name="senha" maxlength="8" required>
+				</div>
+				<button type="submit" onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Login</button></a>
+
+			</fieldset>	
+		</form>
 	</div>
+		
+
+	<footer>
+        <div>
+        <p>Desenvolvido por <i>Maykon Dourado</i></p>
+        </div>
+        <div class="container_links">
+            <div class="linkedin">
+                <p><a href="https://www.linkedin.com/in/maykondourado?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDzuJzeZ%2FQXyE%2BTLLS%2FGJkw%3D%3D"><img src="imagens/linkedin_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+            <div class="github">
+                <p><a href="https://github.com/maykon-c-dev/website_local.git"><img src="imagens/github_logo.png" alt="Linkedin"></img></a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
 </body>
 </html>

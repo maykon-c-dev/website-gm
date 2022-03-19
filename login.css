@@ -1,48 +1,104 @@
 body
 {
-	background-color: #000000;
-    color: #ffffff;
     margin-top: 1%;
-	
+	margin-left: 5%;
+	margin-right: 5%;
+    background: black;
+    color: #ffffff;
 }
-.box
-{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+nav{
+	background-image: linear-gradient(to right , #000000c2, #555b61b6,#555b61b6,#0000009f);
 }
 
-fieldset
-{
-    text-align: center;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-    padding: 30px;
-    
+.banner_topo{	
+	margin-top: 2%;
 }
-fieldset legend
-{
-    background-color: #7fd36a;
-    font: italic bold 20px sans-serif;
-    color: #000000;
-    border: 3px solid #ffffff;
+
+.banner_topo img{
+	width: 100%;
+	border: 4px solid #ffffff8e;
+	border-radius : 8px;
+	text-align: center;	
+}
+.box{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+fieldset{      
+    border: 3px solid #ffffff7e;
+    border-radius: 10px;
+    padding: 8%;
+    font: italic bold max(18px,2vw) Arial;
+    letter-spacing:3px;
+    line-height: 1.5;
+}
+fieldset legend{
+    font: italic bold max(30px,4vw) sans-serif;
+    border: 3px solid #ffffff7e;
     border-radius: 8px;
     padding: 10px;
 }
-
-.formulario
-{
-    font: italic bold 15px sans-serif;
-    padding: 40px;
-    letter-spacing:normal;
+.email{
+    margin-top: 6%;
 }
-input
-{
-    width: 100%;
+.senha{
+    margin-top: 8%;
+    margin-bottom: 10%;
 }
 
-a
-{
-    padding:20px;
+input{
+    padding: 0.5%;
+    width: 80%;
+    font: italic bold max(20px,3vw) sans-serif;
 }
+
+button{
+	background-image: linear-gradient(to right, #b0b1afde,#4c4f52c7,#b0b1afde);
+	border-radius: 6px;
+	padding: 8px;
+	cursor: pointer; 
+	color: rgb(0, 0, 0); 
+	border: solid max(2px,0.2vw) #000000 ; 
+	font-size: min(22px,2.8vw);
+	font-weight: 600;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font: normal max(11px, 0.8vw) arial;
+	color: #ffffff;
+}
+footer img{
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	width: 20px;
+	height: auto;
+}
+.container_links{
+	display: flex;
+}
+.linkedin{	
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5%;
+	padding-left: 20%;
+}
+.github{	
+	align-items: center;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 5%;
+	padding-left: 20%;
+
+}
+
