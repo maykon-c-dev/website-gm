@@ -8,6 +8,7 @@
     <link href="galeria.css" rel="stylesheet">
     <title>Galeria de Imagens</title>
 </head>
+
 <body>
     <nav>
         <a href="index.html"><button onmouseenter="selecionar(event)" onmouseout="desselecionar(event)" >Voltar</button></a>
@@ -22,29 +23,19 @@
     </header>
 
     <div class="menu">
-		<button  onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Casamento Civil</button></a>
+		<button  onmouseenter="selecionar(event)" onmouseout="desselecionar(event)" onclick="galeria()">Casamento Civil</button></a>
 		<button  onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Pós Casamento</button></a>
 		<button  onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Padrinhos e Madrinhas</button></a>
 		<button  onmouseenter="selecionar(event)" onmouseout="desselecionar(event)">Making-Off</button></a>
 	</div>
 
     <article class="foto_principal">
-
+        
     </article>
 
-    <main class="gallery-container">
-        <div >
-            <a href="imagens/Casamento Civil/Casamento Civil (4).jpg" class="gallery-item" >
-                <img src="imagens/Casamento Civil/Casamento Civil (4).jpg" alt="geisa e maykon"></a>
-        </div>  
-        <div>
-            <a href="imagens/Fotos Pós/Fotos Pós Geisa e Maykon (14).jpg" class="gallery-item" >
-                <img src="imagens/Fotos Pós/Fotos Pós Geisa e Maykon (14).jpg" alt="geisa e maykon"></a>
-        </div>
-        <div>
-            <a href="imagens/Making Off Geisa/Making Off Geisa (41).jpg" class="gallery-item" >               
-                <img src="imagens/Making Off Geisa/Making Off Geisa (41).jpg" alt="geisa e maykon"></a>
-        </div>
+
+    <main id="listaFotos">
+        
     </main>
 
     <footer>
