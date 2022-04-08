@@ -30,6 +30,7 @@ header{
 }
 .menu{	
 	position: sticky;
+	z-index: 9;
 	top: 0.5%;
 	display: flex;
 	justify-content:space-between;
@@ -39,9 +40,19 @@ header{
 	background-image: linear-gradient(to right , #000000c2, #555b61e1,#555b61ec,#0000009f);
 	padding: 1vw;
 }
-
-article .foto_principal{
-	width: 100%;
+.foto_principal{
+	background: #00000098;
+	position: sticky;
+	top:6%;
+	display: flex;
+	object-fit: cover;
+	justify-content: center;
+}
+.foto_principal img{
+	border: solid 4px rgba(255, 255, 255, 0.651);
+	border-radius: 8px;
+	max-width: 100%;
+	max-height: 60vh;
 }
 
 
@@ -56,8 +67,8 @@ main
 
 main div{	
 	margin: 2%;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 }
 main div img{
 	width: 100%;
@@ -69,7 +80,6 @@ main div img{
 
 }
 
-
 button{
 	background-image: linear-gradient(to right, #b0b1afde,#4c4f52c7,#b0b1afde);
 	border-radius: 6px;
@@ -77,7 +87,7 @@ button{
 	cursor: pointer; 
 	color: rgb(0, 0, 0); 
 	border: solid max(2px,0.2vw) #000000 ; 
-	font-size: min(20px,2vw);
+	font-size: min(20px,1.8vw);
 	font-weight: 600;
 }
 footer{
